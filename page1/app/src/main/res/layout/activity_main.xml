@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:maxWidth="320dp">
+
+
+            <!-- Título de la aplicación -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="@string/titleText"
+                android:textColor="@color/primary_color"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Nombres -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/hint_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etNombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_nombres"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Apellidos -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/hint_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etApellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_apellidos"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Correo -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/hint_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_correo"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/text_color"  />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Teléfono -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/hint_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_telefono"
+                    android:inputType="phone"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Grupo Sanguíneo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/textNormal"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spGrupoSanguineo"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/spinner_background"
+                android:contentDescription="@string/spinner_grupo_sanguineo"/>
+
+            <!-- Organización -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/hint_color">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etOrganizacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_organizacion"
+                    android:inputType="text"
+                    android:textColor="@color/text_color"
+                    android:textColorHint="@color/hint_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Área de interés -->
+            <com.google.android.material.textfield.TextInputLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textColorHint="@color/hint_color">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etAreaInteres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_area_interes"
+                    android:inputType="text"
+                    android:textColor="@color/text_color" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Botones -->
+            <LinearLayout
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnRegistrar"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/button_register_color"
+                    android:text="@string/btn_registrar"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/btnMostrarDatos"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/button_show_color"
+                    android:text="@string/btn_mostrar_datos"
+                    android:textColor="@android:color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
