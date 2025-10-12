@@ -86,7 +86,7 @@ public class ListaLugaresFragment extends Fragment {
                 "Uno de los cañones más profundos del mundo con impresionantes vistas y avistamiento de cóndores",
                 145.00,
                 "Aventura, Naturaleza",
-                R.drawable.img_colca
+                R.drawable.ic_launcher_background
         ));
 
         listaLugares.add(new Lugar(
@@ -94,7 +94,7 @@ public class ListaLugaresFragment extends Fragment {
                 "Ciudadela religiosa del siglo XVI con arquitectura colonial única",
                 35.00,
                 "Aventura, Cultura",
-                R.drawable.img_monasterio
+                R.drawable.ic_launcher_background
         ));
 
         listaLugares.add(new Lugar(
@@ -102,7 +102,7 @@ public class ListaLugaresFragment extends Fragment {
                 "Imponente volcán de Arequipa, ideal para trekking y aventura con vistas panorámicas",
                 145.00,
                 "Aventura, Naturaleza",
-                R.drawable.img_misti
+                R.drawable.ic_launcher_background
         ));
 
         listaLugares.add(new Lugar(
@@ -110,7 +110,7 @@ public class ListaLugaresFragment extends Fragment {
                 "Corazón histórico de la ciudad con imponente catedral de estilo barroco y colonial",
                 0.00,
                 "Aventura, Cultura",
-                R.drawable.img_plaza
+                R.drawable.ic_launcher_background
         ));
 
         // Inicialmente mostrar todos

@@ -81,7 +81,7 @@ public class FavoritosFragment extends Fragment {
                 "Corazón histórico de la ciudad con imponente catedral",
                 0.00,
                 "Aventura, Cultura",
-                R.drawable.img_plaza
+                R.drawable.divider
         ));
 
         listaFavoritos.add(new Lugar(
@@ -89,7 +89,7 @@ public class FavoritosFragment extends Fragment {
                 "Imponente volcán de Arequipa, ideal para trekking",
                 145.00,
                 "Aventura, Naturaleza",
-                R.drawable.img_misti
+                R.drawable.divider
         ));
 
         listaFavoritos.add(new Lugar(
@@ -97,7 +97,7 @@ public class FavoritosFragment extends Fragment {
                 "Uno de los cañones más profundos del mundo",
                 145.00,
                 "Aventura, Cultura",
-                R.drawable.img_colca
+                R.drawable.divider
         ));
 
         // Mostrar mensaje si no hay favoritos

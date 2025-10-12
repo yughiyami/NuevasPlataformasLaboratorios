@@ -74,7 +74,7 @@ public class InicioFragment extends Fragment {
     private void configurarCarrusel() {
         // Simulación de carrusel simple
         // En producción usar ViewPager2 con múltiples imágenes
-        ivCarrusel.setImageResource(R.drawable.img_carnaval);
+        ivCarrusel.setImageResource(R.drawable.gradient_overlay);
 
         // Click en carrusel lleva a detalle
         ivCarrusel.setOnClickListener(v -> {
@@ -144,7 +144,7 @@ public class InicioFragment extends Fragment {
                 "Experiencia nocturna única",
                 145.00,
                 "Aventura, Cultura",
-                R.drawable.img_noche
+                R.drawable.ic_launcher_background
         ));
 
         lista.add(new Lugar(
@@ -152,7 +152,7 @@ public class InicioFragment extends Fragment {
                 "Disfruta de un atardecer espectacular",
                 120.00,
                 "Aventura, Naturaleza",
-                R.drawable.img_tarde
+                R.drawable.ic_launcher_background
         ));
 
         lista.add(new Lugar(
@@ -160,7 +160,7 @@ public class InicioFragment extends Fragment {
                 "Explora durante el día",
                 100.00,
                 "Cultura, Historia",
-                R.drawable.img_dia
+                R.drawable.ic_launcher_background
         ));
 
         return lista;
@@ -183,7 +183,7 @@ public class InicioFragment extends Fragment {
                 "Un desfile lleno de color y tradición",
                 150.00,
                 "Aventura, Cultura",
-                R.drawable.img_carnaval
+                R.drawable.ic_launcher_background
         );
     }
 

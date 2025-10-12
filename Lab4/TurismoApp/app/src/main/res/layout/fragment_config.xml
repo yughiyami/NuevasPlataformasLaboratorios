@@ -181,7 +181,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_language"
+                        android:src="@drawable/ic_favorite"
                         android:contentDescription="@string/idiomas"
                         app:tint="@color/colorPrimary" />
 
@@ -218,7 +218,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_history"
+                        android:src="@drawable/ic_favorite"
                         android:contentDescription="@string/historial_actividades"
                         app:tint="@color/colorPrimary" />
 
@@ -288,7 +288,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_info"
+                        android:src="@drawable/ic_favorite"
                         android:contentDescription="@string/acerca_de"
                         app:tint="@color/colorPrimary" />
 
@@ -325,7 +325,7 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_people"
+                        android:src="@drawable/ic_favorite"
                         android:contentDescription="@string/creditos"
                         app:tint="@color/colorPrimary" />
 

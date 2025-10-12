@@ -27,7 +27,7 @@ public class DetalleActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalle);
+        setContentView(R.layout.acticity_detalle);
 
         // Inicializar vistas
         inicializarVistas();
@@ -121,7 +121,7 @@ public class DetalleActivity extends AppCompatActivity {
         Toast.makeText(this, "Agregado a favoritos", Toast.LENGTH_SHORT).show();
 
         // Cambiar icono del botón para mostrar que ya está en favoritos
-        btnFavorito.setImageResource(R.drawable.ic_favorite_filled);
+        btnFavorito.setImageResource(R.drawable.ic_favorite);
     }
 
     /**

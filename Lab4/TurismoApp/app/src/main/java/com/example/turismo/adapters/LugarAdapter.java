@@ -105,7 +105,7 @@ public class LugarAdapter extends RecyclerView.Adapter<LugarAdapter.LugarViewHol
 
             // Setear icono de favorito
             if (lugar.isEsFavorito()) {
-                btnFavorito.setImageResource(R.drawable.ic_favorite_filled);
+                btnFavorito.setImageResource(R.drawable.ic_favorite);
             } else {
                 btnFavorito.setImageResource(R.drawable.ic_favorite_border);
             }
@@ -124,7 +124,7 @@ public class LugarAdapter extends RecyclerView.Adapter<LugarAdapter.LugarViewHol
 
                 // Actualizar icono
                 if (lugar.isEsFavorito()) {
-                    btnFavorito.setImageResource(R.drawable.ic_favorite_filled);
+                    btnFavorito.setImageResource(R.drawable.ic_favorite);
                 } else {
                     btnFavorito.setImageResource(R.drawable.ic_favorite_border);
                 }
