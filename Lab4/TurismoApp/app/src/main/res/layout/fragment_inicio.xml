@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Barra de Búsqueda -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etBuscarInicio"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="@string/buscar_lugares"
+                android:paddingStart="16dp"
+                android:paddingEnd="48dp"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="12dp"
+                android:inputType="text" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Carrusel de Imágenes -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <ImageView
+                android:id="@+id/ivCarruselInicio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/imagen_destacada" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradient_overlay"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/tvTituloCarrusel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/carnaval_imagenes"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Chips de Categorías -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/llCategoriasChips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Los chips se agregan dinámicamente -->
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <!-- Título Recomendaciones -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/recomendaciones"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary" />
+
+        <!-- RecyclerView de Recomendaciones Horizontal -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecomendaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:clipToPadding="false"
+            android:paddingStart="0dp"
+            android:paddingEnd="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

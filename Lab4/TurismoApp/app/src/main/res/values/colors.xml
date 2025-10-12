@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <!-- Colores de Fondo -->
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+
+    <!-- Colores de Texto -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <!-- Estados -->
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FF9800</color>
+    <color name="colorError">#F44336</color>
+
+    <!-- Bottom Navigation -->
+    <color name="colorBottomNavSelected">#2196F3</color>
+    <color name="colorBottomNavUnselected">#9E9E9E</color>
+</resources>

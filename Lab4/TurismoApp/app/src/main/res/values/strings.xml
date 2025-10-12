@@ -1,0 +1,52 @@
+<resources>
+    <!-- Nombre de la App -->
+    <string name="app_name">Turismo Cultural</string>
+
+    <!-- Login -->
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="logo_app">Logo de la aplicación</string>
+
+    <!-- Navigation Menu -->
+    <string name="inicio">Inicio</string>
+    <string name="busqueda">Búsqueda</string>
+    <string name="mapa">Mapa</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="configuracion">Configuración</string>
+
+    <!-- Inicio Fragment -->
+    <string name="buscar_lugares">Buscar lugares turísticos</string>
+    <string name="imagen_destacada">Imagen destacada</string>
+    <string name="carnaval_imagenes">Carnaval de Imágenes</string>
+    <string name="recomendaciones">Recomendaciones</string>
+
+    <!-- Lista Fragment -->
+    <string name="arequipa">Arequipa</string>
+    <string name="buscar">Buscar</string>
+
+    <!-- Items -->
+    <string name="imagen_lugar">Imagen del lugar</string>
+    <string name="agregar_favorito">Agregar a favoritos</string>
+    <string name="nombre_lugar">Nombre del lugar</string>
+    <string name="descripcion_lugar">Descripción del lugar</string>
+    <string name="precio">S/ 0.00</string>
+    <string name="categorias">Categorías: Aventura, Cultura</string>
+
+    <!-- Detalle Activity -->
+    <string name="reservar">Reservar</string>
+    <string name="compartir">Compartir</string>
+    <string name="detalles">Detalles</string>
+    <string name="volver">Volver</string>
+
+    <!-- Configuración -->
+    <string name="notificaciones">Notificaciones</string>
+    <string name="notif_diarias">Notificaciones diarias</string>
+    <string name="alertas_viaje">Alertas de viaje</string>
+    <string name="general">General</string>
+    <string name="idiomas">Idiomas</string>
+    <string name="historial_actividades">Historial de actividades</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="creditos">Créditos</string>
+</resources>

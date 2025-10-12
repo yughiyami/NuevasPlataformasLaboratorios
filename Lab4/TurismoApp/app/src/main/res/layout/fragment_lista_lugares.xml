@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <!-- Header con Título de Ciudad e Icono de Búsqueda -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:background="@android:color/white"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvTituloCiudad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/arequipa"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary" />
+
+        <ImageButton
+            android:id="@+id/btnBusqueda"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_search"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/buscar" />
+
+    </LinearLayout>
+
+    <!-- ChipGroup para Filtros -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:scrollbars="none">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroupFiltros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true"
+            app:chipSpacingHorizontal="8dp">
+
+            <!-- Los chips se agregan dinámicamente -->
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </HorizontalScrollView>
+
+    <!-- RecyclerView con lista de lugares -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListaLugares"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>

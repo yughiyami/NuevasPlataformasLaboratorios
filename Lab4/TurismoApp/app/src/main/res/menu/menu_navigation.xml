@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Item: Inicio -->
+    <item
+        android:id="@+id/menu_inicio"
+        android:icon="@drawable/ic_home"
+        android:title="@string/inicio" />
+
+    <!-- Item: Búsqueda/Lista -->
+    <item
+        android:id="@+id/menu_busqueda"
+        android:icon="@drawable/ic_search"
+        android:title="@string/busqueda" />
+
+    <!-- Item: Mapa -->
+    <item
+        android:id="@+id/menu_mapa"
+        android:icon="@drawable/ic_map"
+        android:title="@string/mapa" />
+
+    <!-- Item: Favoritos -->
+    <item
+        android:id="@+id/menu_favoritos"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/favoritos" />
+
+    <!-- Item: Configuración -->
+    <item
+        android:id="@+id/menu_config"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/configuracion" />
+
+</menu>
