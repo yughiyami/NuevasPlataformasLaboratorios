@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ClaustrosFragment"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Claustro de la Compañía"
+        android:textColor="#1E7A9A"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            android:src="@drawable/claustros" />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="El Claustro de la Compañía de Jesús es uno de los conjuntos arquitectónicos más importantes de Arequipa. Construido en el siglo XVII, este claustro forma parte del complejo de la Iglesia de la Compañía.\n\nSus paredes están decoradas con pinturas murales que representan la flora y fauna tropical, así como temas religiosos. Los claustros cuentan con elegantes columnas y arcos de medio punto construidos en sillar.\n\nActualmente alberga galerías comerciales donde se pueden encontrar artesanías locales y productos típicos de la región. Es considerado Patrimonio Cultural de la Nación.\n\nSu arquitectura barroca mestiza es un ejemplo magnífico de la fusión entre las técnicas constructivas españolas y la mano de obra indígena."
+            android:textColor="#333333"
+            android:textSize="16sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#1E7A9A"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
