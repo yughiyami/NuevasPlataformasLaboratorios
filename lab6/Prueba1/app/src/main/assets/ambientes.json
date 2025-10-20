@@ -1,0 +1,69 @@
+{
+  "ambientes": [
+    {
+      "id": "1",
+      "nombre": "Room 1",
+      "tipo": "salon",
+      "descripcion": "Amplia habitación principal ubicada en el sector derecho de la edificación. Espacio multifuncional ideal para actividades grupales, reuniones o eventos. Cuenta con buena iluminación y ventilación.",
+      "area": 75.0,
+      "vertices": [
+        {"x": 380, "y": 320},
+        {"x": 780, "y": 320},
+        {"x": 780, "y": 520},
+        {"x": 380, "y": 520}
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Room 2",
+      "tipo": "salon",
+      "descripcion": "Habitación mediana situada en el sector inferior izquierdo. Espacio versátil adecuado para oficina, sala de trabajo o área de descanso. Cuenta con acceso directo al pasillo principal.",
+      "area": 50.0,
+      "vertices": [
+        {"x": 110, "y": 320},
+        {"x": 380, "y": 320},
+        {"x": 380, "y": 520},
+        {"x": 110, "y": 520}
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Room 3",
+      "tipo": "salon",
+      "descripcion": "Habitación vertical ubicada en el sector superior izquierdo. Diseño alargado ideal para biblioteca, almacén o área de archivo. Proporciona privacidad y tranquilidad.",
+      "area": 54.0,
+      "vertices": [
+        {"x": 110, "y": 80},
+        {"x": 310, "y": 80},
+        {"x": 310, "y": 320},
+        {"x": 110, "y": 320}
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Pasillo",
+      "tipo": "patio",
+      "descripcion": "Espacio de circulación que conecta todas las habitaciones de la edificación. Área común que facilita el tránsito entre los diferentes ambientes y puede utilizarse como zona de espera o galería.",
+      "area": 42.0,
+      "vertices": [
+        {"x": 310, "y": 80},
+        {"x": 380, "y": 80},
+        {"x": 380, "y": 320},
+        {"x": 310, "y": 320}
+      ]
+    },
+    {
+      "id": "5",
+      "nombre": "Área Exterior",
+      "tipo": "patio",
+      "descripcion": "Amplio espacio abierto ubicado en la zona superior derecha de la edificación. Área verde ideal para actividades al aire libre, descanso o eventos sociales. Proporciona iluminación natural al conjunto.",
+      "area": 120.0,
+      "vertices": [
+        {"x": 380, "y": 80},
+        {"x": 780, "y": 80},
+        {"x": 780, "y": 320},
+        {"x": 380, "y": 320}
+      ]
+    }
+  ]
+}
