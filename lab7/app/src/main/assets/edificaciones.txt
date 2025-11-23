@@ -1,0 +1,10 @@
+1|Catedral de Lima|Iglesia|Principal templo católico del Perú, construcción colonial del siglo XVI en la Plaza Mayor
+2|Basílica de Arequipa|Iglesia|Majestuosa construcción de sillar blanco en la Plaza de Armas de Arequipa
+3|Palacio de Gobierno|Palacio|Sede del poder ejecutivo peruano, arquitectura neocolonial en el centro de Lima
+4|Casa de Aliaga|Casa Colonial|Casa colonial más antigua de Lima, habitada por la misma familia desde 1535
+5|Monasterio de Santa Catalina|Convento|Ciudadela colonial de 20,000 m² en Arequipa, fundada en 1580
+6|Iglesia San Francisco|Iglesia|Complejo religioso con catacumbas, biblioteca colonial y claustros del siglo XVII
+7|Torre Tagle|Palacio|Palacio virreinal de 1735, actualmente sede del Ministerio de Relaciones Exteriores
+8|Casa Ricketts|Casa Colonial|Mansión virreinal arequipeña con portada de sillar tallado y amplios patios
+9|Convento Santo Domingo|Convento|Convento dominico de Lima con claustros coloniales y torre mudéjar
+10|Palacio Arzobispal|Palacio|Residencia del arzobispo de Lima con balcones de celosías de estilo moriscob
